@@ -77,11 +77,11 @@ const Translations = {
       states: [
         {
           cardId: 'START',
-          width: 100,
+          width: 95,
         },
         {
-          cardId: 'End',
-          width: 0,
+          cardId: '3fd14f1b',
+          width: 5,
         },
       ],
     },
