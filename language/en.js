@@ -79,6 +79,11 @@ const Translations = {
           cardId: 'START',
           width: 95,
         },
+      ],
+    },
+    {
+      label: 'Learn more',
+      states: [
         {
           cardId: '3fd14f1b',
           width: 5,
