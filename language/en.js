@@ -79,6 +79,10 @@ const Translations = {
           cardId: 'START',
           width: 100,
         },
+        {
+          cardId: 'End',
+          width: 0,
+        },
       ],
     },
   ],
