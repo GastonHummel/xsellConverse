@@ -1395,9 +1395,10 @@ var Timeline = {
      * Remove the timeline cover element that blocks interaction before the video is loaded
      */
     enableTimelineIfNecessary: function() {
-        if ($("#jsTimelineCover") && VideoPlayerInterface.isSourceSet) {
-            $("#jsTimelineCover").remove();
-        }
+        $("#jsTimelineCover").remove();
+        // if ($("#jsTimelineCover") && VideoPlayerInterface.isSourceSet) {
+        //     $("#jsTimelineCover").remove();
+        // }
     },
 
     /**
