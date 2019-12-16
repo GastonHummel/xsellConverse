@@ -1403,9 +1403,9 @@ var Timeline = {
     /**
      * Add timeline cover element that blocks interaction on video timeline bar
      */
-    disableTimelineIfNecessary: function() {
-        $('<div id="jsTimelineCover" class="timeline__cover"></div>').prependTo('#jsTimeline');
-    },
+    // disableTimelineIfNecessary: function() {
+    //     $('<div id="jsTimelineCover" class="timeline__cover"></div>').prependTo('#jsTimeline');
+    // },
 
     /**
      * Update the timeline state and progress

@@ -64,7 +64,7 @@ const timelineSettings = {
   ContrastProgressBarEnabled: true,
   BufferBarEnabled: true,
   ClosedCaptionsSupported: true,
-  MultiLanguageSupported: true,
+  MultiLanguageSupported: false,
   FullScreenEnabled: true,
 };
 
