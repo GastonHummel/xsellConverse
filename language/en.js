@@ -1,4 +1,4 @@
-let Translations = {
+const Translations = {
   SkipBackButtonText: 'Skip back',
   SkipForwardButtonText: 'Skip forward',
   PlayPauseButtonText: 'Play/Pause',
@@ -73,7 +73,7 @@ let Translations = {
    */
   ChapterSettings: [
     {
-      label: 'EngageOne® Converse Intro',
+      label: 'EngageOne Converse Intro',
       states: [
         {
           cardId: 'START',

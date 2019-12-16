@@ -21,7 +21,7 @@
  *      "url" sets the link the icon will open.
  *      "text" sets the alternate text used on screen-readers by default
  */
-let socialIconSettings = {
+const socialIconSettings = {
   // "position": "right",
   // "icons": {
   //     "facebook": {
@@ -59,9 +59,9 @@ let socialIconSettings = {
  * "MultiLanguageSupported" enables the language selection option in the settings menu
  * "FullScreenEnabled" enables the fullscreen functionality of the landing page
  */
-let timelineSettings = {
-  SeenChaptersEnabled: false,
-  ContrastProgressBarEnabled: false,
+const timelineSettings = {
+  SeenChaptersEnabled: true,
+  ContrastProgressBarEnabled: true,
   BufferBarEnabled: true,
   ClosedCaptionsSupported: true,
   MultiLanguageSupported: true,
@@ -75,10 +75,9 @@ let timelineSettings = {
  * "languages" sets the languages available for use on the landing page. Within each language object, the key should match
  *    the name of the corresponding language file. And the value will be displayed on the language selection menu.
  */
-let languageSettings = {
+const languageSettings = {
   defaultLanguage: 'en',
   languages: {
     en: 'English (EN)',
-    es: 'Espa&ntilde;ol (ES)',
   },
 };
