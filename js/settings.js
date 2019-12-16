@@ -21,30 +21,30 @@
  *      "url" sets the link the icon will open.
  *      "text" sets the alternate text used on screen-readers by default
  */
-var socialIconSettings = {
-    "position": "right",
-    "icons": {
-        "facebook": {
-            "url": "https://facebook.com",
-            "text": "Facebook"
-        },
-        "twitter": {
-            "url": "https://twitter.com",
-            "text": "Twitter"
-        },
-        "googleplus": {
-            "url": "https://plus.google.com",
-            "text": "Google+"
-        },
-        "email": {
-            "url": "mailto:",
-            "text": "Email"
-        },
-        "link": {
-            "url": "https://pb.com",
-            "text": "Website"
-        }
-    }
+let socialIconSettings = {
+  // "position": "right",
+  // "icons": {
+  //     "facebook": {
+  //         "url": "https://facebook.com",
+  //         "text": "Facebook"
+  //     },
+  //     "twitter": {
+  //         "url": "https://twitter.com",
+  //         "text": "Twitter"
+  //     },
+  //     "googleplus": {
+  //         "url": "https://plus.google.com",
+  //         "text": "Google+"
+  //     },
+  //     "email": {
+  //         "url": "mailto:",
+  //         "text": "Email"
+  //     },
+  //     "link": {
+  //         "url": "https://pb.com",
+  //         "text": "Website"
+  //     }
+  // }
 };
 
 /**
@@ -59,13 +59,13 @@ var socialIconSettings = {
  * "MultiLanguageSupported" enables the language selection option in the settings menu
  * "FullScreenEnabled" enables the fullscreen functionality of the landing page
  */
-var timelineSettings = {
-    "SeenChaptersEnabled": false,
-    "ContrastProgressBarEnabled": false,
-    "BufferBarEnabled": true,
-    "ClosedCaptionsSupported": true,
-    "MultiLanguageSupported": true,
-    "FullScreenEnabled": true
+let timelineSettings = {
+  SeenChaptersEnabled: false,
+  ContrastProgressBarEnabled: false,
+  BufferBarEnabled: true,
+  ClosedCaptionsSupported: true,
+  MultiLanguageSupported: true,
+  FullScreenEnabled: true,
 };
 
 /**
@@ -75,10 +75,10 @@ var timelineSettings = {
  * "languages" sets the languages available for use on the landing page. Within each language object, the key should match
  *    the name of the corresponding language file. And the value will be displayed on the language selection menu.
  */
-var languageSettings = {
-    "defaultLanguage": "en",
-    "languages": {
-        "en": "English (EN)",
-        "es": "Espa&ntilde;ol (ES)"
-    }
+let languageSettings = {
+  defaultLanguage: 'en',
+  languages: {
+    en: 'English (EN)',
+    es: 'Espa&ntilde;ol (ES)',
+  },
 };
