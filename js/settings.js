@@ -60,12 +60,12 @@ const socialIconSettings = {
  * "FullScreenEnabled" enables the fullscreen functionality of the landing page
  */
 const timelineSettings = {
-  SeenChaptersEnabled: true,
-  ContrastProgressBarEnabled: true,
-  BufferBarEnabled: true,
+  SeenChaptersEnabled: false,
+  ContrastProgressBarEnabled: false,
+  BufferBarEnabled: false,
   ClosedCaptionsSupported: true,
   MultiLanguageSupported: false,
-  FullScreenEnabled: true,
+  FullScreenEnabled: true
 };
 
 /**
@@ -76,8 +76,8 @@ const timelineSettings = {
  *    the name of the corresponding language file. And the value will be displayed on the language selection menu.
  */
 const languageSettings = {
-  defaultLanguage: 'en',
+  defaultLanguage: "en",
   languages: {
-    en: 'English (EN)',
-  },
+    en: "English (EN)"
+  }
 };
