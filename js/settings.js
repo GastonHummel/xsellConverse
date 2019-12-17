@@ -60,9 +60,9 @@ const socialIconSettings = {
  * "FullScreenEnabled" enables the fullscreen functionality of the landing page
  */
 const timelineSettings = {
-  SeenChaptersEnabled: false,
-  ContrastProgressBarEnabled: false,
-  BufferBarEnabled: false,
+  SeenChaptersEnabled: true,
+  ContrastProgressBarEnabled: true,
+  BufferBarEnabled: true,
   ClosedCaptionsSupported: true,
   MultiLanguageSupported: false,
   FullScreenEnabled: true
