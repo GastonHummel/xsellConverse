@@ -1,33 +1,33 @@
 const Translations = {
-  SkipBackButtonText: 'Skip back',
-  SkipForwardButtonText: 'Skip forward',
-  PlayPauseButtonText: 'Play/Pause',
-  VolumeButtonText: 'Volume',
-  SettingsButtonText: 'Settings',
-  ResumeVideoPlayback: 'Resume Video Playback',
+  SkipBackButtonText: "Skip back",
+  SkipForwardButtonText: "Skip forward",
+  PlayPauseButtonText: "Play/Pause",
+  VolumeButtonText: "Volume",
+  SettingsButtonText: "Settings",
+  ResumeVideoPlayback: "Resume Video Playback",
 
-  QualityMenuText: 'Quality',
-  QualityAutoText: 'Auto',
-  LanguageMenuText: 'Language',
-  CCMenuText: 'Captions',
-  BackFromText: 'Back from',
-  OnText: 'On',
-  OffText: 'Off',
+  QualityMenuText: "Quality",
+  QualityAutoText: "Auto",
+  LanguageMenuText: "Language",
+  CCMenuText: "Captions",
+  BackFromText: "Back from",
+  OnText: "On",
+  OffText: "Off",
 
-  'SocialIcon-facebook': 'Facebook',
-  'SocialIcon-twitter': 'Twitter',
-  'SocialIcon-googleplus': 'Google+',
-  'SocialIcon-email': 'Email',
-  'SocialIcon-link': 'Website',
-  CollapseText: 'Collapse',
-  ExpandText: 'Expand',
+  "SocialIcon-facebook": "Facebook",
+  "SocialIcon-twitter": "Twitter",
+  "SocialIcon-googleplus": "Google+",
+  "SocialIcon-email": "Email",
+  "SocialIcon-link": "Website",
+  CollapseText: "Collapse",
+  ExpandText: "Expand",
 
-  PreparedForText: 'Prepared for',
+  PreparedForText: "Prepared for",
 
-  CopyrightText: 'Copyright ' + Utils.getFullYear() + ' Client Name',
-  PoweredByFooterText: 'Powered by',
-  HelpFooterText: 'Help',
-  PrivacyPolicyFooterText: 'Privacy Policy',
+  CopyrightText: "Copyright " + Utils.getFullYear() + " Client Name",
+  PoweredByFooterText: "Powered by",
+  HelpFooterText: "Help",
+  PrivacyPolicyFooterText: "Privacy Policy",
 
   /**
    * Settings for the CTA buttons.
@@ -73,22 +73,22 @@ const Translations = {
    */
   ChapterSettings: [
     {
-      label: 'EngageOne Converse Intro',
+      label: "EngageOne Converse Intro",
       states: [
         {
-          cardId: 'START',
-          width: 95,
-        },
-      ],
+          cardId: "START",
+          width: 99
+        }
+      ]
     },
     {
-      label: 'Learn more',
+      label: ".",
       states: [
         {
-          cardId: '3fd14f1b',
-          width: 5,
-        },
-      ],
-    },
-  ],
+          cardId: "End",
+          width: 1
+        }
+      ]
+    }
+  ]
 };
