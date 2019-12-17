@@ -77,16 +77,7 @@ const Translations = {
       states: [
         {
           cardId: "START",
-          width: 99
-        }
-      ]
-    },
-    {
-      label: ".",
-      states: [
-        {
-          cardId: "End",
-          width: 1
+          width: 100
         }
       ]
     }
