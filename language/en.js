@@ -72,14 +72,23 @@ const Translations = {
    * All videos have an END state, this should not be defined here as it is an implicit construct.
    */
   ChapterSettings: [
-    // {
-    //   label: "EngageOne Converse Intro",
-    //   states: [
-    //     {
-    //       cardId: "START",
-    //       width: 100
-    //     }
-    //   ]
-    // }
+    {
+      label: "EngageOne Converse Intro",
+      states: [
+        {
+          cardId: "START",
+          width: 95
+        }
+      ]
+    },
+    {
+      label: "Learn more",
+      states: [
+        {
+          cardId: "3e6ea237",
+          width: 5
+        }
+      ]
+    }
   ]
 };

@@ -22,29 +22,29 @@
  *      "text" sets the alternate text used on screen-readers by default
  */
 const socialIconSettings = {
-  // "position": "right",
-  // "icons": {
-  //     "facebook": {
-  //         "url": "https://facebook.com",
-  //         "text": "Facebook"
-  //     },
-  //     "twitter": {
-  //         "url": "https://twitter.com",
-  //         "text": "Twitter"
-  //     },
-  //     "googleplus": {
-  //         "url": "https://plus.google.com",
-  //         "text": "Google+"
-  //     },
-  //     "email": {
-  //         "url": "mailto:",
-  //         "text": "Email"
-  //     },
-  //     "link": {
-  //         "url": "https://pb.com",
-  //         "text": "Website"
-  //     }
-  // }
+  position: "right",
+  icons: {
+    facebook: {
+      url: "https://facebook.com",
+      text: "Facebook"
+    },
+    twitter: {
+      url: "https://twitter.com",
+      text: "Twitter"
+    },
+    googleplus: {
+      url: "https://plus.google.com",
+      text: "Google+"
+    },
+    email: {
+      url: "mailto:",
+      text: "Email"
+    },
+    link: {
+      url: "https://pb.com",
+      text: "Website"
+    }
+  }
 };
 
 /**
